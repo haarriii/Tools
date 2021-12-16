@@ -1,0 +1,31 @@
+{
+   
+    "Kaede": [
+        {
+            "name": "char_kaede_skin_SHD",
+            "path": "P:/VFX_Project_17/ftrack/PROJECT/02_PRODUCTION/ASSETS/CHARS/char_kaede/04_texturing/RESOURCES/char_kaede_skin_SH.ma"
+        }
+      ],
+    "Path": [
+    {
+        "name": "char_path_SHD",
+        "path": "P:/VFX_Project_17/ftrack/PROJECT/02_PRODUCTION/ASSETS/CHARS/CHAR_Path/04_TEXTURING/RESOURCES/Char_Path_SH.ma"
+    }
+    ],
+    "Ozaru": [
+        {
+            "name": "char_ozaru_SHD",
+            "path": "P:/VFX_Project_17/ftrack/PROJECT/02_PRODUCTION/ASSETS/CHARS/CHAR_Ozaru/04_TEXTURING/RESOURCES/char_kaede_skin_SH.ma"
+        }
+      ],
+    "Bag": [
+    {
+        "name": "char_kaede_skin_SHD",
+        "path": "P:/VFX_Project_17/ftrack/PROJECT/02_PRODUCTION/ASSETS/CHARS/char_kaede/04_texturing/RESOURCES/char_kaede_skin_SH.ma"
+    }
+    ]
+}
+  
+  
+  
+  
