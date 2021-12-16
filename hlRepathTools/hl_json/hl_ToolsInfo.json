@@ -1,0 +1,83 @@
+{
+  "name": "hl_Tools",
+  "version": "1.0",
+  "Autor": "Harriet Landa Gil",
+  "Scenemenu": [
+    {
+        "label": "Scene Editor",
+        "python": "import hl_ScenesEditor;reload(hl_ScenesEditor);hl_ScenesEditor.sceneEditor()"
+    },
+    {
+      "label": "Export To Substance",
+      "python": "import hl_ExporterTools;reload(hl_ExporterTools);hl_ExporterTools.exporterUI()"
+    }
+  ],
+  "Modelingmenu": [
+    {
+        "label": "Hard Edges",
+        "python": "import hl_ModelingTools;reload(hl_ModelingTools);hl_ModelingTools.hardEdgesUI()"   
+    },
+    {
+      "label": "Modeling Tools",
+      "python": "import hl_ModelingTools;reload(hl_ModelingTools);hl_ModelingTools.modeltoolsUI()"   
+    },
+    {
+      "label": "Cable Creation Tool",
+      "python": "import hl_ModelingTools;reload(hl_ModelingTools);hl_ModelingTools.cableToolUI()"
+    }
+  ],
+  "Gearsmenu": [
+    {
+        "label": "Gears Tools",
+        "python": "import hu_GearTool;reload(hu_GearTool)"
+    }
+  ],
+  "Rigmenu": [
+    {
+        "label": "Rig Tools",
+        "python": "import hl_RiggingTools;reload(hl_RiggingTools);hl_RiggingTools.ModelMainWindowUI().modelUI()"
+    }
+  ],
+  "UVmenu": [
+    {
+        "label": "UV Toolkit",
+        "python": "import hl_UVTool;reload(hl_UVTool);hl_UVTool.UVTool()"
+    }
+  ],
+  "Texturingmenu": [
+    {
+        "label": "Shader Manager",
+        "python": "import hl_TexturingTools;reload(hl_TexturingTools);hl_TexturingTools.shaderManagerUI()"
+    },
+    {
+        "label": "Auto Shader",
+        "python": "import hl_ShadingTools;reload(hl_ShadingTools);hl_ShadingTools.AutoShaderUI().autoShadermainUI()"
+    }
+  ],
+
+  "LookDevmenu": [
+    {
+        "label": "Auto LookDev",
+        "python": "import hl_AutoLookDev;reload(hl_AutoLookDev);hl_AutoLookDev.ldUI()"
+    }
+  ],
+  "XGenmenu": [
+    {
+        "label": "XGen Toolkit",
+        "python": "import hl_XgenTool;reload(hl_XgenTool);hl_XgenTool.xGenToolkitUI()"
+    }
+  ],
+  "Rendermenu": [
+    {
+        "label": "Render Setup",
+        "python": "import hl_RenderTools;reload(hl_RenderTools);hl_RenderTools.renderSetupUI()"
+    }
+  ],
+  "StudioLibrary": [
+    {
+        "label": "Studio Library",
+        "python": "import studiolibrary;reload(studiolibrary);studiolibrary.main();"
+    }
+  ]
+}
+
